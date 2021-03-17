@@ -1,0 +1,20 @@
+{
+  "name": "trellis",
+  "version": "1.0.0",
+  "description": "Missing Field Identification",
+  "main": "missing_field_identification.js",
+  "scripts": {
+    "test": "jest",
+    "testClassFuncs": "jest  PolicyHolder.test.js", 
+    "testHelperFuncs": "jest helperFunctions.test.js"
+  },
+  "author": "Krissy Do",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
