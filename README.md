@@ -4,6 +4,11 @@ The class instance holds information per policy holder.
 The class has one method to gather all missing fields depending on each insurance company's requirements.
 This method uses helper functions for each area.
 
+#### Assumptions for Implementation
+- All fields will be checked for missing data (e.g. for name of policy holder, "firstname", "middlename," and "lastname" must have a value).
+- birthdayRange "start" and "end" must match to show exact birthday.
+- "driversLicenseNumber" must have valid string (e.g. cannot contain "XXXXX", "*****", or null);
+
 #### Policy Data Definition
 ```json
 {
@@ -69,8 +74,10 @@ relationship: operator’s relationship to policyholder
 - in cli: `npm run start`
 ### Run Tests
 - in cli: `npm run test`
-### ToDo List
+- 
+## ToDo List
 - Write method for updating policy information
 - Write method for generating quotes
+- Write more tests
 
 
