@@ -10,7 +10,7 @@ This method uses helper functions for each area.
 - "driversLicenseNumber" must have valid string (e.g. cannot contain "XXXXX", "*****", or null);
 
 #### Policy Data Definition
-```javascript
+```json
 {
 policyId: unique identifier for policy,
 issuer: company that issued the policy,
@@ -58,7 +58,7 @@ relationship: operator’s relationship to policyholder
 }]
 ```
 #### Insurance Requirements Data Definition
-```javascript
+```json
 [
   { policyHolder : [name, email, address, driversLicenseNumber] },
   { operators: [gender, birthdayRange }
