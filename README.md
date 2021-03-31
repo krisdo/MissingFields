@@ -1,4 +1,5 @@
 # Find Missing Fields
+
 Implemented a JS Class to find missing fields of insurance policies. 
 The class instance holds information per policy holder.
 The class has one method to gather all missing fields depending on each insurance company's requirements.
