@@ -10,7 +10,7 @@ This method uses helper functions for each area.
 - "driversLicenseNumber" must have valid string (e.g. cannot contain "XXXXX", "*****", or null);
 
 #### Policy Data Definition
-```json
+```javascript
 {
 policyId: unique identifier for policy,
 issuer: company that issued the policy,
@@ -74,7 +74,6 @@ relationship: operator’s relationship to policyholder
 - in cli: `npm run start`
 ### Run Tests
 - in cli: `npm run test`
-- 
 ## ToDo List
 - Write method for updating policy information
 - Write method for generating quotes
